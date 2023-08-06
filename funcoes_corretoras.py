@@ -1,4 +1,4 @@
-class funcoes_corretoras:
+class Funcoes_corretoras:
 
     def __init__(self):
         pass
@@ -31,6 +31,13 @@ class funcoes_corretoras:
 
         return result
 
+    def encontraErrors(self, x, y):
+        errors = 0  # quantidade de disparidades
+        for i in range(len(x)):
+            if y[i] != x[i]:
+                errors += 1
+        return errors
+
     # Funcao para comparacao entre Y1 e espaco amostral retornando P
     def encontraParidade(self, y, tabela):
         fc = self.comparacao_mais_proxima(y, tabela)
@@ -53,3 +60,4 @@ class funcoes_corretoras:
                 min = aux
 
         return tabela[pos]
+

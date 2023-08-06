@@ -1,5 +1,5 @@
 import random
-class geracao_espacos_amostrais:
+class Geracao_espacos_amostrais:
 
     def __init__(self):
         pass

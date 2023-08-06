@@ -1,11 +1,11 @@
 import matplotlib.pyplot as plt
-class plotagem:
+class Plotagem:
 
     def __init__(self):
         pass
 
     # grafico comparando diferença de X e Y
-    def plota_diferencas(x, y1, y2, tam):
+    def plota_diferencas(self, x, y1, y2, tam):
         plt.subplot(2, 1, 1)
         plt.plot(tam, x, 'r--')
         plt.plot(tam, y1)
@@ -19,7 +19,7 @@ class plotagem:
         plt.show()
 
     # grafico comparando a quantidade de erros entre as variancias e os receptores
-    def plota_errors(arraytestes, quantErrorsy1, quantErrorsy2, quantErrorsy3):
+    def plota_errors(self, arraytestes, quantErrorsy1, quantErrorsy2, quantErrorsy3):
         plt.xlabel('Quantidade de Testes')
         plt.ylabel('Quantidade de Erros')
         plt.title('Quantidade de erros por Y')
@@ -28,22 +28,8 @@ class plotagem:
         plt.plot(arraytestes, quantErrorsy3, label='Y3')
         plt.show()
 
-    def geraRuido(variancia, media, ntestes):
-        n = {}  # Ruido Gaussiano
-        n = list(n)
-        for i in range(ntestes):
-            n.append(random.gauss(media, variancia))
-        return n
 
-    def encontraErrors(x, y):
-        errors = 0  # quantidade de disparidades
-        for i in range(len(x)):
-            if y[i] != x[i]:
-                errors += 1
-
-        return errors
-
-    def fixPlot(aux):
+    def fixPlot(self, aux):
         y = {}
         y = list(y)
         for i in range(len(aux)):
