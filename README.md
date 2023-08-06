@@ -1,6 +1,7 @@
-# Projeto-Iniciacao-Cientifica
-  A crescente modernização tecnológica também trouxe uma preocupação voltada para a segurança da informação, uma vez que as novas tecnologias podem gerar consigo vulnerabilidades inéditas e, consequentemente, novos tipos de ataques.
-  
-  Nesse âmbito, é de suma importância compreender a natureza das ações maliciosas, bem como utilizar mecanismos e protocolos de comunicação que garantam a segurança das informações transmitidas. Para isso, é essencial que se ocorra o estabelecimento de um canal seguro para a troca de chaves criptográficas.
-  
-  Neste trabalho, propõe-se o estabelecimento de um canal seguro utilizando o ganho do canal sem fio como segredo. Esse novo método não requer um alto poder computacional e não consome excessiva energia dos dispositivos durante a troca de chaves criptográficas.
+# Estabelecimento de chave criptográfica utilizando o ganho do canal sem fio como segredo
+The growing technological modernization has also brought a concern for information security, since new technologies can generate unprecedented vulnerabilities and, consequently, new types of attacks.
+
+   In this context, it becomes paramount to understand the nature of malicious actions and to utilize communication mechanisms and protocols that ensure the security of transmitted information. Therefore, establishing a secure channel for the exchange of cryptographic keys becomes essential.
+	
+   This work proposes the establishment of a secure channel using the wireless channel gain as a secret. This novel method does not demand high computational power and is not overly energy-consuming for the devices during the exchange of cryptographic keys. 
+   Numerical results and some application scenarios were considered.
