@@ -1,0 +1,3 @@
+import geracao_espacos_amostrais
+import funcoes_corretoras
+import numpy as np
